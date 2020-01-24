@@ -1,14 +1,17 @@
 
-
+html{
+  background:black;
+  padding:10px;
+}
 body{
-  background-color:rgba(225,225,235,1);
+  background-color:rgba(225,225,235,.55);
   display:flex;
   justify-content: space-around;
   padding:55px;
 }
 
 .app{
-  background-color:rgba(55,55,55,.5);
+  background-color:cornflowerblue;
   padding:15px;
   border-radius: 5px;
   display:grid;
@@ -27,7 +30,8 @@ body{
 .repolist{
   background:gray;
   width:auto;
-  max-height:60vh;
+  max-height:90vh;
+  padding:10px;
   display:flex;
   justify-content: space-around;
   /* flex-wrap: wrap;
@@ -76,10 +80,10 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .flex{
+  position: relative;
   display:flex;
   height:10vh;
   width:100%;
-  margin:auto 20% auto 65%;
   justify-content: space-between;
 }
 
